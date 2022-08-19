@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: job-project
+  data:
+    mongodb:
+      uri: mongodb+srv://lucianodepaula:1100#MongoDB@mvp.1bxyvyp.mongodb.net/job_mvp_api
+      
+api:
+  app:
+    jwtSecret: authenticationSecretKey
+    jwtExpirationMs: 86400000
